@@ -1,6 +1,6 @@
 import Factorial
 import MathGuruPearson
-import file3
+import Fibonacci
 
 repeat = True
 
@@ -28,7 +28,7 @@ while(repeat):
             veracity = True
 
         elif(int(user_selection) == 2):
-            print(file3.my_function(int(n_selection)))
+            print(Fibonacci.Fibonacci(int(n_selection)))
             veracity = True
 
         else:
