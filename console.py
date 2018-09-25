@@ -1,5 +1,5 @@
-import file1
-import file2
+import Factorial
+import MathGuruPearson
 import file3
 
 repeat = True
@@ -20,11 +20,11 @@ while(repeat):
     
     while(not veracity):
         if(int(user_selection) == 1):
-            print(file1.my_function(int(n_selection)))
+            print(Factorial.factorial(int(n_selection)))
             veracity = True
 
         elif(int(user_selection) == 2):
-            print(file2.my_function(int(n_selection)))
+            print(MathGuruPearson.powerOfTwo(int(n_selection)))
             veracity = True
 
         elif(int(user_selection) == 2):
