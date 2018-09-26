@@ -5,7 +5,7 @@ import Fibonacci
 repeat = True
 
 while(repeat):
-    user_selection = input("Select number of operation you'd like to perform:\n1\n2\n3\n")
+    user_selection = input("Select number of operation you'd like to perform:\n1 (Powers of Two)\n2 (Factorial)\n3 (Fibonacci Sequence)\n")
 
     veracity = False
 
